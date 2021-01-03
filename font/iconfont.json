@@ -1,0 +1,30 @@
+{
+  "id": "2305477",
+  "name": "iconfont",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "5746748",
+      "name": "书",
+      "font_class": "icon-",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "13769358",
+      "name": "性别-女",
+      "font_class": "xingbie-nv",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "490727",
+      "name": "timeline",
+      "font_class": "timeline",
+      "unicode": "ed62",
+      "unicode_decimal": 60770
+    }
+  ]
+}
