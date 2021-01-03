@@ -2873,7 +2873,6 @@ margin-right: 1em;
 .flexbox{
 	display: flex;
 	align-items: center;	
-	background-color:#1E1F23;
 }
 .flexbox .pic{
 	width: 50%;

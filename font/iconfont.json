@@ -1,6 +1,6 @@
 {
-  "id": "2305477",
-  "name": "iconfont",
+  "id": "2305815",
+  "name": "font",
   "font_family": "iconfont",
   "css_prefix_text": "icon-",
   "description": "",
@@ -25,6 +25,13 @@
       "font_class": "timeline",
       "unicode": "ed62",
       "unicode_decimal": 60770
+    },
+    {
+      "icon_id": "10909255",
+      "name": "branch",
+      "font_class": "_branch",
+      "unicode": "e602",
+      "unicode_decimal": 58882
     }
   ]
 }
