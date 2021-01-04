@@ -2512,7 +2512,6 @@ body.is-loading:after {
 	margin: 0 0 4rem 0;
 	padding: 0;
 	/* text-shadow: rgb(255, 255, 255) 0px 0px 10px; */
-
 }
 
 #header>.logo a {
@@ -2850,44 +2849,124 @@ p {
 .Tcontainer h4::before, .Tcontainer h4::after {
 	content: '';
 	height: 5px;
-
 	flex-grow: 1;
 	margin: auto;
 }
 
-section .Tcontainer:nth-of-type(4n+1) h4::before,
-section .Tcontainer:nth-of-type(4n+1) h4::after{
-	background-color:#2c6296
+section .Tcontainer:nth-of-type(4n+1) h4::before, section .Tcontainer:nth-of-type(4n+1) h4::after {
+	background-color: #2c6296
 }
-section .Tcontainer:nth-of-type(4n+3) h4::before,
-section .Tcontainer:nth-of-type(4n+3) h4::after{
-	background-color:#41B883
+
+section .Tcontainer:nth-of-type(4n+3) h4::before, section .Tcontainer:nth-of-type(4n+3) h4::after {
+	background-color: #41B883
 }
-.Tcontainer h4::before{
-margin-right: 1em;
+
+.Tcontainer h4::before {
+	margin-right: 1em;
 }
+
 .Tcontainer h4::after {
 	margin-left: 1em;
 }
 
-.flexbox{
+.flexbox {
 	display: flex;
-	align-items: center;	
+	/* align-items: center;	 */
 }
-.flexbox .pic{
+
+.flexbox .pic {
 	width: 50%;
 }
-.flexbox .txt{
+
+.flexbox .txt {
 	width: 50%;
-	background-color:#fcea86;
+	background-color: #fff;
+	/* padding: 0.5em; */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 1em 1.5em;
 }
-.flexbox .pic img{
+
+.flexbox .txt p {
+	text-indent: 0;
+}
+
+.flexbox .pic img {
 	width: 100%;
+	height: 100%;
 }
-.txt p{
-	padding: 8px 6px;
+
+.txt p {
 	margin-bottom: 5px;
+	position: relative;
 }
-.flexbox :first-child{
+
+.txt {
+	position: relative;
+	z-index: 1;
+}
+
+.flexbox .txt p:before {
+	content: '';
+	position: absolute;
+	width: 3.2rem;
+	height: 3.2rem;
+	background-color: #ccc;
+	left: 0.2rem;
+	z-index: -1;
+	border-radius: 50%;
+}
+
+.flexbox .txt p::first-letter {
+	font-size: 2.5rem;
+	float: left;
+	line-height: .8;
+	margin: .2em;
+	position: relative;
+	z-index: 1;
+}
+
+/* .flexbox :first-child{
 	margin-right: 15px;
+} */
+
+#two .content {
+	padding: 3.5em;
+}
+
+#main .content {
+	padding-left: 3em;
+	padding-right: 3em;
+	;
+}
+
+.character {
+	display: flex;
+}
+
+.character .pic {
+	width: 30%;
+}
+
+.character .pic img {
+	width: 100%;
+	height: 100%;
+}
+
+.character .txt {
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	padding: 0 10px;
+}
+
+.character .txt h3 {
+	padding: 0 0 15px;
+	border-bottom:dotted 
+}
+.character+.character{
+	margin-top: 10px;
 }

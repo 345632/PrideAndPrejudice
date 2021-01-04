@@ -6,6 +6,13 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "6844448",
+      "name": "分析",
+      "font_class": "fenxi",
+      "unicode": "e63a",
+      "unicode_decimal": 58938
+    },
+    {
       "icon_id": "5746748",
       "name": "书",
       "font_class": "icon-",
