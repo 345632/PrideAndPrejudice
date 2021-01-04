@@ -2741,6 +2741,7 @@ p {
 }
 
 .timeline {
+	width: 1200px;
 	padding-top: 5%;
 	margin-bottom: 100px;
 }
@@ -2965,8 +2966,37 @@ section .Tcontainer:nth-of-type(4n+3) h4::before, section .Tcontainer:nth-of-typ
 
 .character .txt h3 {
 	padding: 0 0 15px;
-	border-bottom:dotted 
+	border-bottom: dotted
 }
-.character+.character{
+
+.character+.character {
 	margin-top: 10px;
+}
+
+.navbar {
+	font-family: "Noto Serif TC", serif;
+	width: 100px;
+	position: fixed;
+	top: 35vh;
+	left:0;
+	z-index: 2;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.6);
+
+}
+.navbar ul{
+	margin: 0;
+	padding: 5px 5px;
+}
+.navbar li {
+	color:black;
+	font-weight: 500;
+}
+.navbar li+li {
+	margin-top: 15px;
+}
+
+.navbar li:hover {
+	background-color: #2c6296;
+	cursor: pointer;
 }

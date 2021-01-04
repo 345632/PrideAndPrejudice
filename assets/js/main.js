@@ -5,7 +5,15 @@
 */
 
 (function($) {
-
+	$('.navbar li').click(function(){
+		console.log($(this).index());
+		let current=$('.mainwrapper .w').eq($(this).index()).offset().top;
+		$('body,html').stop().animate(
+			{
+				scrollTop:current
+			}
+		)
+	})
 	skel.breakpoints({
 		xlarge: '(max-width: 1680px)',
 		large: '(max-width: 1280px)',
